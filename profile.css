@@ -1,0 +1,72 @@
+ /* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 86px;
+  background-color: #1F2229;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  text-align: center;
+  width: 86px;
+  height: 86px;
+  display: block;
+  color: #5E6165;
+  text-decoration: none;
+}
+.sidebar .link {
+  padding-top: 30px;
+}
+/* Active/current link */
+.sidebar .active {
+  background: rgba(255, 255, 255, 0.08);
+  color: #3BB0E5;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover {
+  color: #CCC;
+}
+.sidebar .brand {
+  background: url(icons/title-bg.png) no-repeat;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 44px;
+  padding-top: 15px;c
+}
+.brand span {
+  color: #FFF;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 86px;
+}
+.cover-image img {
+  height: 390px;
+  width: 100%;
+  opacity: 0.8;
+}
+.main-content .rounded {
+  text-align: center;
+  width: 250px;
+  position: absolute;
+  bottom: 125px;
+  margin-left: 53px;
+}
+.rounded .btn-follow {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #5E6165;
+  width: 228px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 2px solid #DDDDDD;
+  margin-top: 27px;
+}
