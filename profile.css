@@ -51,14 +51,21 @@ div.content {
   width: 100%;
   opacity: 0.8;
 }
+
+.main-content .left {
+  width: 361px;
+  position: absolute;
+  bottom: -335px;
+  text-align: center;
+
+}
 .main-content .rounded {
   text-align: center;
   width: 250px;
-  position: absolute;
-  bottom: 125px;
   margin-left: 53px;
 }
 .rounded .btn-follow {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding-left: 50px;
@@ -69,4 +76,81 @@ div.content {
   background: #FFFFFF;
   border: 2px solid #DDDDDD;
   margin-top: 27px;
+}
+.white-bg {
+  background: #FFF;
+}
+.left .fol {
+  margin: 0 auto;
+  margin-top: 7px;
+  width: 298px;
+  height: 86px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding-top: 15px;
+}
+.right .det {
+  padding: 20px 10px 20px 15px;
+  margin-left: 361px;
+  display: flex;
+  justify-content: space-between;
+}
+.det .btn-comment {
+  background: #3BB0E5;
+  color: #FFF;
+  vertical-align: middle;
+}
+.body {
+  margin-left: 361px;
+  display: flex;
+  justify-content: space-between;
+}
+.body .all {
+  width: 100%;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.sub-right{
+  width: 298px;
+}
+.sub-right .perf {
+  height: 86px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.social .row {
+  margin: 0 0 3px 0;
+}
+.social .col-md-3 {
+  height: 100px;
+}
+.pan {
+  padding-right: 5px;
+}
+.col-md-3 .col-body {
+  background: #FFF;
+  height: 100%;
+  margin-left: -15px;
+  text-align: center;
+  padding-top: 30px;
+}
+.project img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.projects {
+  margin: 0 auto;
+  text-align: left;
+  width: 298px;
+  margin-top: 20px;
+}
+.fa {
+  color: #5E6165;
+}
+.projects span{
+  margin-left: 10px;
+  color: #5E6165;
 }
